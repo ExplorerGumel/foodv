@@ -13,7 +13,16 @@
             alert("Incorrect password. Access denied.");
             window.location.href = "https://github.com"; // Redirect to GitHub homepage
         }
-    </script>
+<!---    </script> -->
+    <script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.19.2/gradio.js"
+    ></script>
+
+<gradio-app src="https://munzali-foodvision.hf.space"></gradio-app>
+
+<!--    <gradio-app src="https://<space-subdomain>.hf.space"></gradio-app>
     <iframe src="https://huggingface.co/spaces/Munzali/FOODVISION?embed=true" width="100%" height="800px" frameborder="0"></iframe>
+    -->
 </body>
 </html>
